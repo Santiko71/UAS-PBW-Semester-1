@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECT</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <section id="nav">
+        <a href="" class="nav__logo">ELECT</a>
+
+        <div>
+            <ul class="nav__bar">
+                <li class="nav__item"><a href="index.html">Home</a></li>
+                <li class="nav__item"><a href="shop.html">Shop</a></li>
+                <li class="nav__item"><a href="contact.html">Contacts</a></li>
+                <li class="nav__item"><a class="active" href="s-cart.html"><i class='bx bx-cart' name="cart" id="cart__logo"></i> Shopping Cart</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- Navigation Bar End -->
+
+    <!-- Content -->
+    <section id="judul-shop">
+        <p>Musim baru, rumah baru</p>
+        <h2>PRODUK EDISI 2023</h2>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Hapus</td>
+                    <td>Gambar</td>
+                    <td>Produk</td>
+                    <td>Harga</td>
+                    <td>Jumlah</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                    <tr>
+                        <td><a href="#"  class="cart-remove">x</a></td>
+                        <td><img src="IMG/produk/sofa.jpg" alt=""></td>
+                        <td>Nama Sofa</td>
+                        <td>Rp299.900</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rp299.900</td>
+                    </tr>
+
+                <tr>
+                    <td><a href="#">x</a></td>
+                    <td><img src="IMG/produk/sofa2.jpg" alt=""></td>
+                    <td>Nama Sofa</td>
+                    <td>Rp299.900</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rp299.900</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#">x</a></td>
+                    <td><img src="IMG/produk/daniil-silantev-unsplash.jpg" alt=""></td>
+                    <td>Nama Sofa</td>
+                    <td>Rp299.900</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rp299.900</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="kupon">
+            <h3>Kupon yang berlaku</h3>
+            <div>
+                <input type="text" placeholder="Masukkan Kupon mu">
+                <button class="normal">Submit</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rp999.999</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rp999.999</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proses untuk checkout</button>
+        </div>
+    </section>
+
+    <!-- Content End -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="isi__content">
+                <div class="footer__content1">
+                    <h5>ALAMAT KAMI</h5>
+                    <P>Semarang Tengah, <br>Indonesia</P>
+                </div>
+            </div>
+
+            <div class="isi__content">
+                <div class="footer__content2">
+                    <h5>KONTAK KAMI</h5>
+                    <i><a href="info@elect.com">info@elect.com</a></i>
+                    <br>
+                    <p>.(62) 157-4475</p>
+                </div>
+            </div>
+
+            <div class="isi__content">
+                <div class="footer__content3">
+                    <h5>JAM KERJA</h5>
+                    <P>Sen - Jum: 9:00 - <br>18:00 <br>Sab: 10:00 - 16:00 <br>Ming: Tutup</P>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+</html>
